@@ -2,6 +2,7 @@ const config = require('config');
 const path = require('path');
 
 const CSS = config.has('build.css') ? config.get('build.css') : 'css';
+const DATA = config.has('build.data') ? config.get('build.data') : 'data';
 const HTML = config.has('build.html') ? config.get('build.html') : 'html';
 const IMG = config.has('build.img') ? config.get('build.img') : 'img';
 const JS = config.has('build.js') ? config.get('build.js') : 'js';
@@ -21,6 +22,7 @@ function getDistDir() {
 module.exports = {
     getDistDir: getDistDir,
     CSS: CSS,
+    DATA: DATA,
     HTML: HTML,
     IMG: IMG,
     JS: JS,

@@ -1,0 +1,30 @@
+{
+    "page_title": "Development Expenses",
+    "transactions": {
+        "2020": [
+            {
+                "date": "2020-06-24",
+                "type": "income",
+                "subtype": "donation_paypal",
+                "description": "Paypal Donation",
+                "amount": 60
+            },
+            {
+                "date": "2020-06-26",
+                "type": "expense",
+                "subtype": "domain_renewal",
+                "project": "Solenopsis/solenopsis",
+                "description": "Renewal of Solenopsis domain",
+                "payee": "Namecheap",
+                "amount": -15.16
+            },
+            {
+                "date": "2020-07-20",
+                "type": "income",
+                "subtype": "dontain_github",
+                "description": "GitHub Sponsors",
+                "amount": 7
+            }
+        ]
+    }
+}

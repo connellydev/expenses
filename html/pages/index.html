@@ -1,11 +1,57 @@
 {% extends "layout.html" %}
 
+{% macro numberstyle(amt) %}
+{{ 'has-text-danger' if amt < 0 }} has-text-centered
+{% endmacro %}
+
 {% block content %}
 <section class="section">
-    <div class="container content">
-        <h1 class="title">
-            Hello World
-        </h1>
-    </div>
+  <div class="container content">
+    <h1 class="title">
+      Development Expenses
+    </h1>
+    <p>
+      For full transparency I decided to expose all of the development expenses that I have
+      as well as all of the income that I have earned.  My goal is to be as close to balanced
+      as possible since I'm not looking to make money doing this but simply to keep the
+      projects going.
+    </p>
+    {% for year, items in transactions %}
+    <h2>{{ year }}</h2>
+    {% set year_total = 0 %}
+    <table class="table is-striped">
+      <thead>
+        <tr>
+          <th class="has-text-centered">Date</th>
+          <th>Description</th>
+          <th class="has-text-centered">Amount</th>
+        </tr>
+      </thead>
+      {% for item in items | sort(false, true, 'date') %}
+        <tr>
+          <td class="has-text-centered">
+            {{ item.date }}
+          </td>
+          <td>
+            {{ item.description }}
+          </td>
+          <td class="{{ numberstyle(item.amount) }}">
+            {{ item.amount | booking }}
+          </td>
+        </tr>
+        {% set year_total = year_total + item.amount %}
+      {% endfor %}
+      <tfoot>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="{{ numberstyle(year_total) }}">
+            {{ year_total | booking}}
+          </td>
+        </tr>
+      </tfoot>
+    </table>
+    {% endfor %}
+  </div>
 </section>
 {% endblock %}

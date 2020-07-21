@@ -10,6 +10,7 @@
     },
     "build": {
         "css": "css",
+        "data": "data",
         "html": "html",
         "img": "img",
         "js": "js",

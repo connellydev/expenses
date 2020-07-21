@@ -4,12 +4,12 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Site Title</title>
+    <title>{{ page_title }}</title>
     {% include "styles.html" %}
 </head>
 
 <body>
-    <div id="site_wrapper" class="container is-fullhd"
+    <div id="site_wrapper" class="container is-fullhd">
         {% block content %} {% endblock %}
         {% include "scripts.html" %}
     </div>
