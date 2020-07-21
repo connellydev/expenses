@@ -1,0 +1,40 @@
+{
+  "name": "site-start",
+  "version": "1.0.0",
+  "description": "A template repo for starting a gulp based site",
+  "main": "index.js",
+  "scripts": {
+    "build": "./node_modules/.bin/gulp",
+    "lint-js": "./node_modules/.bin/eslint gulpfile.js gulp/**/*.js",
+    "lint-style": "./node_modules/.bin/stylelint sass/*.scss css/*.css",
+    "lint-yaml": "./node_modules/.bin/yamllint .github/**/*.yml",
+    "lint": "npm run lint-js && npm run lint-style && npm run lint-yaml",
+    "watch": "./node_modules/.bin/gulp watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pcon/site-starter.git"
+  },
+  "author": "Patrick Connelly",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/pcon/site-starter/issues"
+  },
+  "homepage": "https://github.com/pcon/site-starter#readme",
+  "dependencies": {
+    "config": "^3.3.1",
+    "del": "^5.1.0",
+    "eslint": "^7.0.0",
+    "gulp": "^4.0.2",
+    "gulp-bro": "^2.0.0",
+    "gulp-clean": "^0.4.0",
+    "gulp-connect": "^5.7.0",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-nunjucks-render": "^2.2.3",
+    "gulp-sass": "^4.1.0",
+    "gulp-sitemap": "^7.6.0",
+    "node-sass": "^4.14.1",
+    "stylelint": "^13.5.0",
+    "yaml-lint": "^1.2.4"
+  }
+}
