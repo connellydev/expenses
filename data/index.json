@@ -24,6 +24,15 @@
                 "subtype": "dontain_github",
                 "description": "GitHub Sponsors",
                 "amount": 7
+            },
+            {
+                "date": "2020-08-18",
+                "type": "expense",
+                "subtype": "domain_renewal",
+                "project": "prosperodatamask",
+                "description": "Purchase of Prospero domain",
+                "payee": "Namecheap",
+                "amount": -15.16
             }
         ]
     }
