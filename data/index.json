@@ -86,6 +86,15 @@
                 "amount": 7
             },
             {
+                "date": "2020-06-26",
+                "type": "expense",
+                "subtype": "domain_renewal",
+                "project": "connellydev/connellydev.github.io",
+                "description": "Renewal of connelly.dev domain",
+                "payee": "Namecheap",
+                "amount": -17.16
+            },
+            {
                 "date": "2021-03-20",
                 "type": "income",
                 "subtype": "dontain_github",
