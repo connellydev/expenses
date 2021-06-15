@@ -33,6 +33,87 @@
                 "description": "Purchase of Prospero domain",
                 "payee": "Namecheap",
                 "amount": -15.16
+            },
+            {
+                "date": "2020-08-20",
+                "type": "income",
+                "subtype": "dontain_github",
+                "description": "GitHub Sponsors",
+                "amount": 7
+            },
+            {
+                "date": "2020-09-20",
+                "type": "income",
+                "subtype": "dontain_github",
+                "description": "GitHub Sponsors",
+                "amount": 7
+            },
+            {
+                "date": "2020-10-20",
+                "type": "income",
+                "subtype": "dontain_github",
+                "description": "GitHub Sponsors",
+                "amount": 7
+            },
+            {
+                "date": "2020-11-20",
+                "type": "income",
+                "subtype": "dontain_github",
+                "description": "GitHub Sponsors",
+                "amount": 7
+            },
+            {
+                "date": "2020-12-20",
+                "type": "income",
+                "subtype": "dontain_github",
+                "description": "GitHub Sponsors",
+                "amount": 7
+            }
+        ],
+        "2021": [
+            {
+                "date": "2021-01-20",
+                "type": "income",
+                "subtype": "dontain_github",
+                "description": "GitHub Sponsors",
+                "amount": 7
+            },
+            {
+                "date": "2021-02-20",
+                "type": "income",
+                "subtype": "dontain_github",
+                "description": "GitHub Sponsors",
+                "amount": 7
+            },
+            {
+                "date": "2021-03-20",
+                "type": "income",
+                "subtype": "dontain_github",
+                "description": "GitHub Sponsors",
+                "amount": 7
+            },
+            {
+                "date": "2021-04-20",
+                "type": "income",
+                "subtype": "dontain_github",
+                "description": "GitHub Sponsors",
+                "amount": 7
+            },
+            {
+                "date": "2021-05-20",
+                "type": "income",
+                "subtype": "dontain_github",
+                "description": "GitHub Sponsors",
+                "amount": 7
+            },
+            {
+                "date": "2021-06-15",
+                "type": "expense",
+                "subtype": "domain_renewal",
+                "project": "Solenopsis/solenopsis",
+                "description": "Renewal of Solenopsis domain",
+                "payee": "Namecheap",
+                "amount": -15.16
             }
         ]
     }
