@@ -1,0 +1,17 @@
+{
+    "expense": {
+        "scope": "json",
+        "prefix": "expense",
+        "body": [
+            "{",
+            "\t\"date\": \"\",",
+            "\t\"type\": \"expense\",",
+            "\t\"subtype\": \"\",",
+            "\t\"project\": \"\",",
+            "\t\"description\": \"\",",
+            "\t\"payee\": \"\",",
+            "\t\"amount\": 0",
+            "}"
+        ]
+    }
+}
