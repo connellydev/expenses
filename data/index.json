@@ -243,6 +243,22 @@
                 "description": "Renewal of Solenopsis domain",
                 "payee": "Namecheap",
                 "amount": -30.32
+            },
+            {
+                "date": "2022-07-20",
+                "type": "income",
+                "subtype": "dontain_github",
+                "description": "GitHub Sponsors",
+                "amount": 7
+            },
+            {
+                "date": "2022-07-28",
+                "type": "expense",
+                "subtype": "domain_renewal",
+                "project": "prosperodatamask",
+                "description": "Renewal of Prospero domain",
+                "payee": "Namecheap",
+                "amount": -17.16
             }
         ]
     }
